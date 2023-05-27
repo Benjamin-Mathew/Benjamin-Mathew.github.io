@@ -29,7 +29,7 @@ The only caveat is that additional inputs (ancillas) and outputs (garbage) need 
 
 Voilà! We can simulate any classical circuit on a quantum computer. This is due to the existence of an equivalent quantum CCNOT gate with the same description. If we combine this with the Hadamard gate (which will be described in the next paragraph), the pair becomes universal in the quantum setting.
 
-But, what about randomized computation? There is a simple trick to address this as wekk. We only need a quantum means of generating random coins. Enter the Hadamard gate, which possesses the following description:
+But, what about randomized computation? There is a simple trick to address this as well. We only need a quantum means of generating random coins. Enter the Hadamard gate, which possesses the following description:
 
 $$H \ket{0} = \dfrac{1}{\sqrt{2}} (\ket{0} + \ket{1})$$
 
